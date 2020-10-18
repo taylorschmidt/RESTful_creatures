@@ -1,0 +1,8 @@
+<h1>List of Prehistoric Creatures</h1>
+
+<ul>
+    <% creatures.forEach((creature) => { %>
+      <li><%= creature.type%></li>
+      <li><img src=<%= creature.img_url%> width='300px' height='250px'> </li>
+    <% }) %>
+</ul>
